@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    margin-top: 15vh;
+    grid-template-columns: 9em 10em 9em;
+    grid-template-rows: 195px 80px; 
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 73px;
+    text-align: center;
+}
+button, input {
+    grid-row: 2/3;
+    padding: 0px;
+    height: 85px;
+}
+button {
+    /* height: 85px; */
+    width: 85px;
+    margin: auto 30px;
+    background-color: rgb(177, 159, 159);
+    font-size: 43px;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+button:hover {
+    background-color: white;
+    color:rgb(177, 159, 159);
+
+}
+input {
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    width: 160px;
+}
